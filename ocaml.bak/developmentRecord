@@ -1,0 +1,6 @@
+7/22/2015:
+1. Fix a bug for printing  unexpected ')'
+2. Bug: change expList to a list of exp not a list of string since ast_exp_to_string is not reliable. Or change it to ast_exp_to_string_in_varctx.
+3. developing negate:
+	a) extract terms based on AND operator
+	b) negate each term
